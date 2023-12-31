@@ -1,0 +1,48 @@
+main {
+    min-height: calc(100vh - 200px);
+    max-height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.chatBoxContainer {
+    min-height: calc(100vh - 200px);
+    max-height: auto;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.container {
+    width: 100vw;
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.chatBox {
+    width: 50%;
+    height: 80px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    background: white;
+    box-shadow: 5px 5px 5px gray;
+}
+
+.chatBox p {
+    margin: 30px;
+    color: black;
+}
+
+.profileImg {
+    margin-top: 15px;
+    margin-right: 10px;
+    height: 50px;
+    border-radius: 50px;
+}
